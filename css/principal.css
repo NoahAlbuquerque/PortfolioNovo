@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+#menu{
+   list-style: none;
+   text-align: right;
+}
+
+#menu li a{
+    color: black;
+    text-decoration: none;
+    padding: 18px;
+}
+
+#menu li{
+    display: inline;
+}
+
+.nomeFuncaoImagem{
+margin-top: 150px;
+}
+
+#fotoPerfil{
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+  }

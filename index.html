@@ -3,31 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" type="text/css" href="css/principal.css">
     <title>Portifólio | Noah Albuquerque</title>
   </head>
   <body>
     <header>
-      <ul>
-        <a href="index.html"><li>Home</li></a>
-        <a href="portfolio.html"><li>Portfólio</li></a>
-        <a href="experienciaProfissional.html"><li>Experiência Profissional</li></a>
-        <a href="sobreMim.html"><li>Sobre Mim</li></a>
-        <a href="contato.html"><li>Contato</li></a>
+      <ul id="menu">
+       <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="portfolio.html">Portfólio</a>
+        </li>
+        <li>
+          <a href="experienciaProfissional.html">Experiência Profissional</a>
+        </li>
+        <li>
+          <a href="sobreMim.html">Sobre Mim</a>
+        </li>
+        <li>
+          <a href="contato.html">Contato</a>
+        </li>
       </ul>
     </header>
     <main>
-      <section>
+      <section class="nomeFuncaoImagem">
         <h1>Olá, sou o Noah</h1>
         <h4>Analista e Desenvolvedor de Software</h4>
+        <img id="fotoPerfil" src="img/perfil.jpeg" />
       </section>
 
-      <img id="fotoPerfil" src="img/perfil.jpeg" />
+
       <section>
         <p>
           Aqui você vai conhecer um pouco dos meus hobbies, minhas experiência,
@@ -37,34 +43,18 @@
         </p>
       </section>
     </main>
-    <div class="meioDeContatos">
+    <section class="meioDeContatos">
       <ul>
-        <li>curriculo</li>
-        <li>GitHub</li>
-        <li>Linkedin</li>
-        <li>E-mail</li>
+        <li id="curriculo">curriculo</li>
+        <li><img src="img/github.png"></li>
+        <li><img src="img/linkedin.png"></li>
+        <li><img src="img/e-mail.png"></li>
       </ul>
-    </div>
+    </section>
 
-    <p>
+    <h4>
       "Há uma força motriz mais poderosa que o vapor, a eletricidade e a energia
       atômica: a vontade" Albert Einstein.
-    </p>
-
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    </h4>
   </body>
 </html>
