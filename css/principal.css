@@ -33,9 +33,20 @@ body.dark #menu li a {
 }
 
 .nomeFuncaoImagem{
-margin-top: 150px;
+    margin-top: 150px;
+    margin-left: 90px;
 }
 
+.nomeFuncaoImagem h1{
+    font-size: 50px;
+    margin-bottom: -15px;
+    
+}
+
+#resumoIntrodutorio{
+    margin-top: -270px;
+    margin-left: 90px;
+}
 
 .trilho{
     width: 60px;
@@ -86,4 +97,6 @@ body.dark {
     border-radius: 50%;
     width: 350px;
     height: 350px;
+    margin-left: 970px;
+    margin-top: -100px;
   }
