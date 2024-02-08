@@ -100,3 +100,38 @@ body.dark {
     margin-left: 970px;
     margin-top: -100px;
   }
+
+  .meioDeContatos ul{
+    list-style: none;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #curriculo{
+    background-color: #142850;
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    margin-top: 40px;
+    border-radius: 9px;
+    margin-right: 20px;
+    margin-left: 55px;
+    padding: 6px;
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+
+  #github{
+    margin-right: 20px;
+
+  }
+
+  #linkedin{
+    margin-right: 40px;
+  }
+
+  #email{
+
+  }
