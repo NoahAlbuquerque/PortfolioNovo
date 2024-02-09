@@ -2,17 +2,17 @@
     box-sizing: border-box;
 }
 
-/* cor das letras no moto escuro */
+/* cor das letras no modo claro */
 body{
-    background-color: #4e4e4e;
-    transition: .5s;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 #menu{
    list-style: none;
    text-align: right;
    margin-right: 100px;
+   font-weight: bold; 
 }
 
 #menu li a{
@@ -51,7 +51,7 @@ body.dark #menu li a {
 .trilho{
     width: 60px;
     height: 25px;
-    background-color: #c3c3c36b;
+    background-color: #5b5b5ba8;
     border-radius: 350px;
     position: absolute;
     cursor: pointer;
@@ -62,33 +62,40 @@ body.dark #menu li a {
 .trilho .indicador{
     width: 23px;
     height: 23px;
-    background-color: #0c0404;
+    background-color: #0c0404dd;
     border-radius: 50%;
     transform:  translateX(3%);
     position:sticky;
     left: 5;
-    transition: transform 0.5s ease;
+    transition: transform 0.4s ease;
     margin-top: 1px;
 }
 
 .trilho.dark {
-    background-color: #c3c3c3;
+    background-color: #5b5b5ba8;
     
 }
 
 .trilho.dark .indicador{
-    left: 200px;
-    background-color: #fff;
-    transform: translateX(159%);
+    background-color: #ffffff;
+    border-radius: 50%;
+    transform:  translateX(160%);
+    position:sticky;
+    right: 5;
+    transition: transform 0.4s ease;
+    margin-top: 1px;
+    width: 23px;
+    height: 23px;
+    
 }
 
 body.dark{
-    background-color: #e4e4e4;
+    background-color: #000000;
 }
 
-/* cor das letras no modo claro */
+/* cor das letras no modo escuro */
 body.dark {
-    color: #000000;
+    color: #ffffff;
 }
 
 
@@ -113,25 +120,27 @@ body.dark {
     color: #fff;
     text-align: center;
     width: 100px;
-    height: 35px;
-    margin-top: 40px;
+    height: 33px;
     border-radius: 9px;
     margin-right: 20px;
     margin-left: 55px;
     padding: 6px;
-    text-decoration: none; 
     font-weight: bold; 
+  }
+
+  a:link{
+    text-decoration:none; 
   }
 
   #github{
     margin-right: 20px;
-
+    
   }
 
   #linkedin{
-    margin-right: 40px;
+    margin-right: 20px;
   }
 
-  #email{
-
+  #albert{
+    margin-left: 90px;
   }
