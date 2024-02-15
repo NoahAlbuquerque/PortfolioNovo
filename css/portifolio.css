@@ -32,15 +32,9 @@ body.dark #menu li a {
     display: inline;
 }
 
-.nomeFuncaoImagem{
-    margin-top: 150px;
-    margin-left: 90px;
-}
-
-.nomeFuncaoImagem h1{
-    font-size: 50px;
-    margin-bottom: -15px;
-    
+#titulo{
+    margin-top: 100px;
+    margin-bottom: -13px;
 }
 
 #resumoIntrodutorio{
@@ -98,16 +92,6 @@ body.dark {
     color: #ffffff;
 }
 
-
-#fotoPerfil{
-
-    border-radius: 50%;
-    width: 350px;
-    height: 350px;
-    margin-left: 970px;
-    margin-top: -100px;
-  }
-
   .meioDeContatos ul{
     list-style: none;
     display: flex;
@@ -115,32 +99,5 @@ body.dark {
     margin-bottom: 50px;
   }
 
-  #curriculo{
-    background-color: #142850;
-    color: #fff;
-    text-align: center;
-    width: 100px;
-    height: 33px;
-    border-radius: 9px;
-    margin-right: 20px;
-    margin-left: 55px;
-    padding: 6px;
-    font-weight: bold; 
-  }
+ 
 
-  a:link{
-    text-decoration:none; 
-  }
-
-  #github{
-    margin-right: 20px;
-    
-  }
-
-  #linkedin{
-    margin-right: 20px;
-  }
-
-  #albert{
-    margin-left: 90px;
-  }
