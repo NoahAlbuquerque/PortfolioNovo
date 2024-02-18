@@ -92,6 +92,29 @@ body.dark {
     color: #ffffff;
 }
 
+#linhaDivisoria{
+    border: 1px solid;
+    margin-top: 243px;
+}
 
+.meioDeContatos{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    list-style: none;
+  }
+
+  .meioDeContatos a li{
+    list-style: none;
+    display: inline;
+    margin-right: 9px;
+  }
+
+  #github{
+    margin-inline-start: 44%;
+  }
+
+  #Copyright{
+    text-align: center;
+  }
  
 
