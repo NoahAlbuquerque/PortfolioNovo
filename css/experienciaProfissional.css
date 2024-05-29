@@ -92,10 +92,123 @@ body.dark {
     color: #ffffff;
 }
 
-#linhaDivisoria{
+.timeline {
+    position: relative;
+    padding: 20px 0;
+    margin-top: 50px;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 30px;
+    width: 1px;
+    background-color: #020202; /* Cor da linha vertical */
+  }
+/* cor da linha modo dark*/
+  body.dark  .timeline::before{
+    background-color: #ffffff;
+}
+
+  
+  .event {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 60px; /* Espaço para a linha e a bolinha */
+  }
+  
+  .event .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #03045E; /* Cor da bolinha */
+    border-radius: 50%;
+    position: absolute;
+    left: 30px; /* Alinhado ao centro da linha vertical */
+    transform: translateX(-50%);
+  }
+/* cor da bolihha modo dark*/
+  body.dark .event .dot{
+    background-color: #b9e6fe;
+}
+
+  .event .date {
+    margin-left: 20px; /* Ajusta o espaçamento conforme necessário */
+    font-size: 16px;
+    font-weight: bold;
+    color: #03045E;
+  }
+
+/* cor da data modo dark*/
+  body.dark .event .date{
+    color: #b9e6fe;
+}
+
+  /* cor dos paragrafos no modo dark*/
+  .event p body.dark{
+    margin: 0;
+    margin-top: 18px; /* Espaço entre o ano e o texto */
+    margin-bottom: 30px;
+    padding-left: 20px; /* Espaço entre a bolinha e o texto */
+    color: #b9e6fe;
+
+  }
+  
+  #totalExperiencia ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 107px;
+  }
+  
+  #totalExperiencia li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+    vertical-align: top; /* Alinha os elementos no topo */
+  }
+  
+  #totalExperiencia li h2 {
+    margin: 0; /* Remove qualquer margem padrão */
+    font-size: 50px;
+  }
+
+  body.dark h2{
+    color: #b9e6fe;
+}
+  
+  #totalExperiencia li p {
+    margin: 0; /* Remove qualquer margem padrão */
+  }
+  
+  .principaisCargos {
+    display: flex;
+    justify-content: space-between; /* Espaça uniformemente os elementos */
+}
+
+.principaisCargos > div {
+    background-color: #03055ecf;
+    border-radius: 15px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    padding: 3px;
+    color: #fff;
+}
+
+body.dark .principaisCargos > div{
+    background-color:#03055ecf;
+    
+
+}
+
+  #linhaDivisoria{
     border: 1px solid;
     margin-top: 243px;
 }
+
 
 .meioDeContatos{
     margin-top: 30px;
