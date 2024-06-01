@@ -112,6 +112,10 @@ body.dark {
     background-color: #ffffff;
 }
 
+#resumoExperiencia{
+  margin-left: 30px;
+}
+
   
   .event {
     position: relative;
@@ -128,7 +132,7 @@ body.dark {
     left: 30px; /* Alinhado ao centro da linha vertical */
     transform: translateX(-50%);
   }
-/* cor da bolihha modo dark*/
+/* cor da bolinha modo dark*/
   body.dark .event .dot{
     background-color: #b9e6fe;
 }
@@ -156,8 +160,7 @@ body.dark {
   }
   
   #totalExperiencia ul {
-    padding: 0;
-    margin: 0;
+
     margin-top: 50px;
     text-align: center;
     margin-bottom: 107px;
@@ -213,11 +216,83 @@ body.dark .principaisCargos > div{
 .citacao{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 180px;
+}
+
+#skills {
+  display: flex;
+  justify-content: center; 
+  align-items:center; 
+  gap: 20px;
+
+}
+
+#skills h1{
+  font-size: 35px;
+}
+
+#skills div {
+  flex: 1;
+  max-width: 600px; 
+  text-align: center;
+}
+
+#habilidadesBack{
+  margin-right: 120px;
+  font-weight: bolder;
+}
+
+#habilidadesFront{
+  margin-right: 120px;
+  font-weight: bolder;
+}
+
+#linhaHabilidadesBack{
+  width: 60px;
+  margin-left: 200px;
+  margin-top: -15px;
+  border-color: #ed0789;
+}
+
+#linhaHabilidadesFront{
+  width: 60px;
+  margin-left: 200px;
+  margin-top: -15px;
+  border-color: #06a4af;
+}
+
+#valores{
+  margin-left: 30px;
+  margin-top: 180px;
+}
+
+#valores h1{
+  font-size: 36px;
+}
+
+#valores h5{
+  margin-bottom: -5px;
+}
+
+#paixao{
+  color:#d70000
+}
+
+#criatividade{
+  color:#52d700
+}
+
+#empatia{
+  color:#d76b00
+}
+
+#resultado{
+  color:#d700b3
 }
 
   #linhaDivisoria{
     border: 1px solid;
-    margin-top: 243px;
+    margin-top: 140px;
 }
 
 
