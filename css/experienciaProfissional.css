@@ -192,16 +192,27 @@ body.dark {
     background-color: #03055ecf;
     border-radius: 15px;
     width: 300px;
-    height: 150px;
+    height: 160px;
     text-align: center;
     padding: 3px;
     color: #fff;
+    box-shadow: 10px 15px 10px rgba(41, 41, 41, 0.188);
 }
 
-body.dark .principaisCargos > div{
-    background-color:#03055ecf;
-    
 
+body.dark .principaisCargos > div{
+    background-color:#b9e6fe;
+    color: #000000;
+    box-shadow: 10px 15px 10px rgba(255, 255, 255, 0.145);
+}
+
+#imagemCitacao{
+    margin-bottom: -60px;
+}
+
+.citacao{
+    text-align: center;
+    margin-top: 50px;
 }
 
   #linhaDivisoria{
