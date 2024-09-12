@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/principal.css') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='img/iconeTopo.png') }}">
+    <title>Portfólio | Noah Albuquerque</title>
+  </head>
+  <body>
+    <header>
+      <div class="trilho" id="trilho">
+        <div class="indicador"></div>
+      </div>
+      <ul id="menu">
+        <li>
+          <a href="{{ url_for('home') }}">Home</a>
+        </li>
+        <li>
+          <a href="{{ url_for('portfolio') }}">Portfólio</a>
+        </li>
+        <li>
+          <a href="{{ url_for('experiencia_profissional') }}">Experiência Profissional</a>
+        </li>
+        <li>
+          <a href="{{ url_for('sobre_mim') }}">Sobre Mim</a>
+        </li>
+        <li>
+          <a href="{{ url_for('contato') }}">Contato</a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="nomeFuncaoImagem">
+        <h1>Olá, sou o Noah</h1>
+        <h3>Analista e Desenvolvedor de Software</h3>
+        <img id="fotoPerfil" src="{{ url_for('static', filename='img/perfil.jpg') }}" />
+      </section>
+
+      <section id="resumoIntrodutorio">
+        <p>
+          Aqui você vai conhecer um pouco dos meus hobbies, minhas experiências,
+          meus projetos<br />
+          até por fim chegar nos meus contatos.<br />
+          Se quiser acessar meu currículo clique nesse botão abaixo abraços!
+        </p>
+      </section>
+    </main>
+    <section class="meioDeContatos">
+      <ul>
+        <a href="Noah Albuquerque.docx">
+          <li id="curriculo">Currículo</li>
+        </a>
+        <a href="https://github.com/NoahAlbuquerque">
+          <li id="github"><img src="{{ url_for('static', filename='img/github.png') }}" /></li>
+        </a>
+        <a href="https://www.linkedin.com/in/noah-albuquerque-0349a3211/">
+          <li id="linkedin"><img src="{{ url_for('static', filename='img/linkedin.png') }}" /></li>
+        </a>
+        <a href="mailto:noahalbuquerqueti@gmail.com">
+          <li id="email"><img src="{{ url_for('static', filename='img/e-mail.png') }}" /></li>
+        </a>
+      </ul>
+    </section>
+
+    <h4 id="albert">
+      "Há uma força motriz mais poderosa que o vapor, a eletricidade e a energia
+      atômica: a vontade" <br>Albert Einstein.
+    </h4>
+    <script src="{{ url_for('static', filename='js/principal.js') }}"></script>
+  </body>
+</html>

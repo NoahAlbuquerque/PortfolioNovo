@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='img/iconeTopo.png') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/contato.css') }}">
+    <title>Contato | Noah Albuquerque</title>
+</head>
+<body>
+  <header>
+    <div class="trilho" id="trilho">
+      <div class="indicador"></div>
+    </div>
+    <ul id="menu">
+      <li>
+        <a href="{{ url_for('home') }}">Home</a>
+      </li>
+      <li>
+        <a href="{{ url_for('portfolio') }}">Portfólio</a>
+      </li>
+      <li>
+        <a href="{{ url_for('experiencia_profissional') }}">Experiência Profissional</a>
+      </li>
+      <li>
+        <a href="{{ url_for('sobre_mim') }}">Sobre Mim</a>
+      </li>
+      <li>
+        <a href="{{ url_for('contato') }}">Contato</a>
+      </li>
+    </ul>
+  </header>
+  
+  <main>
+    <h1>Vamos nos conectar?</h1>
+    <p>Sinta-se à vontade para solicitar colaboração ou apenas um alô amigável.</p>
+    <img src="{{ url_for('static', filename='img/perfil.jpg') }}" alt="Perfil">
+  </main>
+  
+  <script src="{{ url_for('static', filename='js/contato.js') }}"></script>
+</body>
+</html>
